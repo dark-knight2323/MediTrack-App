@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 50%;
+    margin:5% 0;
+}
+.logo h1{
+    font-family:montserrat;
+    color: rgb(25,200,210);
+}
+.logo h4{
+    font-family:sans-serif;
+    color: rgb(200,0,0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.logo h1,h4{
+    text-align: center;
+    width:50%;
+    margin-top: 1rem;
+}
+.login input{
+    border-radius:20px;
+    padding:10px;
+    width:100%;
+    margin:10px 0;
+    outline:none;
+    background-color: rgb(193, 191, 191);
+    border:0;
+    font-size:18px;
+}
+.login button{
+    background-color: rgb(200, 59, 8);
+    border-radius:20px;
+    padding:10px;
+    width:80%;
+    margin:10px 0;
+    font-size: medium;
+    color:white;
+    border:0;
+    font-weight:600;
+}
+img{
+    border-radius: 2px;
+    height: 70%;
+    width: 80%;
+}
+.links{
+    display: inline-flex;
+    align-items: center;;
+}
+.links label{
+    display:flex;
+    align-items: center;
+    margin: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+}
+.links a{
+    margin-left:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+body form{
+    padding:10px 20px;
+    border-radius: 20px;;
+}
